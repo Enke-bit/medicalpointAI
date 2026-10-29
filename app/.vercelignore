@@ -1,0 +1,7 @@
+# Gizli bilgiler
+.key
+.env
+# Geliştirme betikleri canlıya gitmez
+bench*.mjs
+check-*.mjs
+test-*.mjs

@@ -1,0 +1,264 @@
+PAGES: 7
+
+--- PAGE 1 ---
+
+17 
+5 Artificial Intelligence 
+Artificial intelligence is a category of technology that allows computers and machines to emulate 
+human capabilities such as learning and understanding, as well as problem -solving, decision-making, 
+creativity, and autonomous action. 
+5.1 Agentic AI 
+Agentic AI refers to autonomous or semi-autonomous AI software systems (AI agents) designed to 
+achieve specific clinical or operational goals with minimal, or no, constant human supervision.  
+5.1.1 Does the hospital use agentic AI? 
+□ Yes, fully implemented (hospital-wide/all departments)
+□ X Yes, partially implemented (selected departments/piloting)
+□ Not yet, but this is planned or in early stages of implementation
+□ No, this is not available
+5.1.2 What tool(s) or supplier(s) does the hospital use for agentic AI? 
+[Pusula PRM (CRM); medguide.app; as well as AI-based applications developed in-house by the 
+hospital, with development ongoing.]
+5.1.3 For what tasks is agentic AI used in the hospital? You may select multiple answers.  
+□ Clinical decision support (e.g., suggesting diagnoses and treatments, identifying patterns)
+□ X I T support tasks (e.g., first-level support, directing queries)
+□ X Resource management (e.g., bed management, stocking and inventory ordering)
+□ X Patient engagement (e.g., post-discharge follow-up, triaging symptoms)
+□ X Patient intake and discharge (e.g., admission, identity verification)
+□ X Time management (e.g., appointment scheduling, reminders, calendar management)
+□ Other [Text field]
+5.1.4 What percentage of patient visits use agentic AI? 
+□ X Less than 10%
+□ Around 10% to 20%
+□ Around 20% to 50%
+□ More than 50%
+5.1.5 Does the hospital perform evaluations of the implementation and efficacy of 
+agentic AI? 
+□ X Yes, regularly
+□ Yes, after a new tool is implemented
+□ No
+5.1.6 Please provide evidence (e.g., dashboards) of the hospital’s implementation of 
+agentic AI. 
+Please do not upload any evidence containing personally identifiable or sensitive data. 
+[call center analizi eklenecek]
+
+--- PAGE 2 ---
+
+18 
+5.2 Ambient AI 
+Ambient AI refers to artificial intelligence systems that operate in the background to passively "listen" 
+to and observe clinician-patient interactions, automatically converting them into structured clinical 
+documentation and actionable insights. 
+5.2.1 Does the hospital use ambient AI? 
+□ Yes, fully implemented (hospital-wide/all departments)
+□ Yes, partially implemented (selected departments/piloting)
+□ X Not yet, but this is planned or in early stages of implementation
+□ No, this is not available
+5.2.2 What tool(s) or supplier(s) does the hospital use for ambient AI? 
+[]
+5.2.3 In which settings does the hospital use ambient AI? You may select multiple 
+answers. 
+□ Ambulatory services on the hospital site
+□ Ambulatory services in offsite/affiliated clinics
+□ Inpatient services
+□ Other settings [Text field]
+5.2.4 What percentage of ambulatory patient visits use ambient AI? 
+□ Less than 10%
+□ Around 10% to 20%
+□ Around 20% to 50%
+□ More than 50%
+5.2.5 What percentage of inpatient visits use ambient AI? 
+□ Less than 10%
+□ Around 10% to 20%
+□ Around 20% to 50%
+□ More than 50%
+5.2.6 Does the hospital perform evaluations of the implementation and efficacy of 
+ambient AI? 
+□ Yes, regularly
+□ Yes, after a new tool is implemented
+□ No
+5.2.7 Please provide evidence (e.g., dashboards) of the hospital’s implementation of 
+ambient AI. 
+Please do not upload any evidence containing personally identifiable or sensitive data.  
+[Upload field] 
+
+--- PAGE 3 ---
+
+19 
+5.3 Administrative Support 
+Administrative support refers to the use of artificial intelligence for tasks relating to administration, 
+such as data entry, scheduling, emails/reminders, or inventory management. This can include agentic 
+AI, ambient AI, or human-prompted tools. 
+5.3.1 Are AI tools used in the hospital for administrative support tasks? 
+□ Yes, fully implemented (hospital-wide/all departments)
+□ X Yes, partially implemented (selected departments/piloting)
+□ Not yet, but this is planned or in early stages of implementation
+□ No, this is not available
+5.3.2 Please name the AI tools or platforms that are used for administrative support. 
+[ Sci-Kit Learn Library, All Forest Algorithm Models, DeepLearn (Neural Networks), CTrial ]
+5.3.3 For what administrative support tasks are these AI tools used in the hospital? You 
+may select multiple answers. 
+□ X Data entry and transcription of results
+□ X Financial tasks (e.g., billing & invoicing, salary, reimbursement, insurance)
+□ X Logistics (e.g., patient transport, materials requirements planning, inventory)
+□ X Patient services (e.g., appointment reminders, admission, discharge letter generation)
+□ X Staff time management (e.g., scheduling and shifts, calendar management)
+□ Other [Text field]
+5.3.4 What proportion of administrative work is assisted by AI tools? 
+5.4 
+□ X Less than 20%
+□ Around 20% to 50%
+□ Around 50% to 80%
+□ More than 80%
+Clinical – Laboratory
+5.4.1 Are AI tools used in the hospital for diagnostic or analytic purposes with laboratory 
+data? 
+□ Yes, fully implemented (hospital-wide/all departments)
+□ Yes, partially implemented (selected departments/piloting)
+□ X Not yet, but this is planned or in early stages of implementation
+□ No, this is not available
+□ Other [Text field]
+5.4.2 Please name the AI tools or platforms that are used for the purpose of diagnosis or 
+analytics using laboratory results. 
+[Text field] 
+
+--- PAGE 4 ---
+
+20 
+5.4.3 For which diagnostic or analytic tasks are these AI tools used in the hospital? You 
+may select multiple answers. 
+□ Assessment of intervention efficacy
+□ Automated reporting
+□ Chronic illness progression
+□ Early warning alerts
+□ Identifying infection patterns
+□ Prioritization and triage
+□ Risk prediction/scoring
+□ Quality control
+□ Other [Text field]
+5.4.4 What proportion of clinical laboratory work is assisted by AI tools?  
+□ Less than 20%
+□ Around 20% to 50%
+□ Around 50% to 80%
+□ More than 80%
+5.5 Clinical – Imaging
+5.5.1 Are AI tools used in the hospital for diagnostic or analytic purposes with imaging 
+and pathology data? 
+□ Yes, for analytics only
+□ Yes, for diagnosis and analytics
+□ X No
+□ Other [Text field]
+5.5.2 Please name the AI tools or platforms that are used for the purpose of diagnosis or 
+analytics using imaging data. 
+[Text field] 
+5.5.3 For which diagnostic or analytic tasks are these AI tools used in the hospital? You 
+may select multiple answers. 
+□ Detecting tumors/foreign bodies
+□ Measuring tumor size/volume
+□ Detecting hemorrhagic/ischemic stroke
+□ Detecting hemorrhage/clots elsewhere in the body
+□ Quality control
+□ Content-based image retrieval
+□ Automated reporting
+□ Other [Text field]
+
+--- PAGE 5 ---
+
+21 
+5.5.4 What proportion of clinical imaging work is assisted by AI tools?  
+□ Less than 20%
+□ Around 20% to 50%
+□ Around 50% to 80%
+□ More than 80%
+5.6 Clinical – Pathology
+5.6.1 Are AI tools used in the hospital for diagnostic or analytic purposes with pathology 
+data? 
+□ Yes, for analytics only
+□ Yes, for diagnosis and analytics
+□ X No
+□ Other [Text field]
+5.6.2 Please name the AI tools or platforms that are used for the purpose of diagnosis or 
+analytics using pathology results. 
+[Text field] 
+5.6.3 For which diagnostic or analytic tasks are these AI tools used in the hospital?  You 
+may select multiple answers. 
+□ Automated reporting
+□ Cell-counting
+□ Detecting tumors/foreign bodies
+□ Measuring tumor size/volume
+□ Image segmentation (e.g., by cell-type)
+□ Quantification of markers (e.g., immunohistochemical staining)
+□ Quality control
+□ Content-based image retrieval
+□ Other [Text field]
+5.6.4 What proportion of clinical pathology work is assisted by AI tools?  
+□ Less than 20%
+□ Around 20% to 50%
+□ Around 50% to 80%
+□ More than 80%
+
+--- PAGE 6 ---
+
+22 
+5.7 Patient Support 
+5.7.1 Are AI tools used in the hospital for patient support tasks? 
+□ X Yes, within the hospital only
+□ Yes, remotely (e.g., via an app)
+□ Yes, both within the hospital and remotely
+□ No
+5.7.2 Please name the AI tools or platforms that are used for the purpose of patient 
+support. 
+[Machine Learn Systems, DeepLearn Models, translate.medguide.app/]
+5.7.3 For what patient support tasks are these AI tools used in the hospital? You may 
+select multiple answers. 
+□ X Patient administration tasks (e.g., first-line enquiries)
+□ X L  anguage tasks (e.g., translation, simple language)
+□ Patient education (e.g., symptom management)
+□ Mental health (e.g., anxiety support, digital counselling)
+□ Other   
+5.7.4 Are AI tools for patient support available via a patient portal? 
+□ X Yes
+□ No
+
+--- PAGE 7 ---
+
+23 
+5.7.5 What proportion of patients use AI tools for patient support?  
+5.8 
+□ X Less than 20%
+□ Around 20% to 50%
+□ Around 50% to 80%
+□ More than 80%
+Other Purposes
+5.8.1 Are AI tools used in the hospital for purposes other than those previously 
+mentioned? 
+□ X Yes
+□ No
+5.8.2 Please name the AI tools and purposes for which these are used in the hospital. [We use internally developed predictive machine learning models in our call center operations. Our 
+own team builds and maintains these models, which analyze operator efficiency and support decision-making 
+mechanisms aimed at improving operator performance. These tools are already in use, and we are continuing to 
+refine and develop them.]
+5.8.3 For what other purposes are these AI tools used in the hospital? You may select 
+multiple answers. 
+5.9 
+□ AI-assisted surgery planning
+□ Clinical decision support tools (e.g. therapy recommendations, medication)
+□ Monitoring of clinical parameters (e.g., early detection of sepsis, ventilation monitoring)
+□ Research activities
+□ X Other [We use internally developed predictive machine learning models in our call center operations. Our own team builds and maintains 
+these models, which analyze operator efficiency and support decision-making mechanisms aimed at improving operator performance. These 
+tools are already in use, and we are continuing to refine and develop them.]
+□ AI Tool Support  
+5.9.1 Is there official support within the hospital for AI tools (e.g., business or premium accounts, 
+dedicated IT team)? 
+□ Yes, there is official support
+□ X  Yes, there is official support and “power users” (users with additional training)
+□ Yes, there are “power users”
+□ No
+5.9.2 For which categories of AI tools is support available? You may select multiple 
+answers. 
+□ X Administrative support
+□ Laboratory
+□ Imaging
+□ Pathology
+□ X Patient support
+□ Other [Text field]

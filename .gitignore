@@ -1,0 +1,7 @@
+# Gizli bilgiler
+.key
+.env
+
+# Araç önbellekleri
+.openchamber/
+node_modules/

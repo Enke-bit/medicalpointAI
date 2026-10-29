@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Statista AI Form Asistanı – Sistem Yerleştirme</title>
+<link rel="stylesheet" href="/style.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230d6e6e'/><text x='16' y='22' font-size='16' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>S</text></svg>" />
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <div class="logo">S5</div>
+      <div>
+        <h1>Statista AI Form Asistanı</h1>
+        <div class="sub">Bölüm 5 · Artificial Intelligence — sistem yerleştirme ve cevap taslağı</div>
+      </div>
+    </div>
+    <div class="status" id="status"><span class="dot" id="statusDot"></span><span id="statusText">Bağlantı kontrol ediliyor…</span></div>
+  </header>
+
+  <div class="grid">
+
+    <section class="card pad">
+      <label class="lbl" for="sys">Hastane sistemi / çözüm</label>
+      <textarea id="sys" placeholder="Örn: Pusula PRM adlı CRM yazılımı randevu hatırlatma SMS'i gönderiyor, hasta taleplerini birimlere yönlendiriyor ve çağrı merkezi operatörlerinin performansını raporluyor."></textarea>
+      <div class="meta-row">
+        <span id="counter">0 / 4000</span>
+        <span>Ctrl + Enter ile analiz</span>
+      </div>
+
+      <button class="btn-primary" id="run">
+        <span class="spinner"></span>
+        <span id="runLabel">Bu sistemi nereye yazabilirim?</span>
+      </button>
+
+      <div class="chips" id="chips">
+        <button class="chip">CRM / randevu sistemi</button>
+        <button class="chip">Radyoloji AI demosu</button>
+        <button class="chip">Ambient AI pilotu</button>
+        <button class="chip">Hasta portalı</button>
+        <button class="chip">Çağrı merkezi modeli</button>
+      </div>
+
+      <div class="hint">
+        <strong>Nasıl çalışır:</strong> Yönlendirme kural motoruyla hesaplanır (madde, kutular, karar), dil modeli yalnızca
+        gerekçe ve form metnini yazar. Model yanıt vermezse sonuç yine üretilir ve “kural” olarak işaretlenir.
+      </div>
+    </section>
+
+    <section id="resultWrap">
+      <div class="card" id="result">
+        <div class="empty">
+          <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M9 12h6M9 16h6M9 8h6"/><rect x="4" y="3" width="16" height="18" rx="3"/></svg>
+          <h3>Henüz analiz yok</h3>
+          <p>Soldaki alana bir sistem yazın. Hangi maddeye, hangi kutuya ve hangi metinle yazılabileceğini burada göstereceğim.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="card records">
+    <div class="records-head">
+      <h2>Sistem kayıtları <span id="recCount" style="color:var(--muted);font-weight:400"></span></h2>
+      <div style="display:flex;gap:8px">
+        <button class="btn-ghost" id="export">CSV indir</button>
+        <button class="btn-ghost" id="clear">Temizle</button>
+      </div>
+    </div>
+    <div id="recList"></div>
+  </section>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="/app.js"></script>
+</body>
+</html>
